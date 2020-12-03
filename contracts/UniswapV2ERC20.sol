@@ -6,7 +6,7 @@ import './libraries/SafeMath.sol';
 contract UniswapV2ERC20 is IUniswapV2ERC20 {
     using SafeMath for uint;
 
-    string public constant name = 'Fish';
+    string public constant name = 's';
     // TO Do : update token symbol
     string public constant symbol = 'Fish';
     uint8 public constant decimals = 18;
