@@ -1,14 +1,14 @@
 {
-  "name": "@uniswap/v2-core",
-  "description": "🎛 Core contracts for the UniswapV2 protocol",
+  "name": "@seaswap/v2-core",
+  "description": "🎛 Core contracts for the SeaSwap protocol",
   "version": "1.0.1",
-  "homepage": "https://uniswap.org",
+  "homepage": "http://seaswap.net/",
   "repository": {
     "type": "git",
     "url": "https://github.com/Uniswap/uniswap-v2-core"
   },
   "keywords": [
-    "uniswap",
+    "seaswap",
     "ethereum",
     "v2",
     "core",

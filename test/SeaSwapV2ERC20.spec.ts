@@ -13,10 +13,10 @@ chai.use(solidity)
 
 const TOTAL_SUPPLY = expandTo18Decimals(10000)
 const TEST_AMOUNT = expandTo18Decimals(10)
-const tokenName = 'Fish Token'//'Uniswap V2';
-const tokenSymbol = 'Fish'//'Uniswap V2';
+const tokenName = 'Fish Token'//'SeaSwap V2';
+const tokenSymbol = 'Fish'//'SeaSwap V2';
 
-describe('UniswapV2ERC20', () => {
+describe('SeaSwapV2ERC20', () => {
   const provider = new MockProvider({
     hardfork: 'istanbul',
     mnemonic: 'horn horn horn horn horn horn horn horn horn horn horn horn',

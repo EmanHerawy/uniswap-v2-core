@@ -1,7 +1,7 @@
-const UniswapV2Factory = artifacts.require("UniswapV2Factory");
+const SeaSwapV2Factory = artifacts.require("SeaSwapV2Factory");
 module.exports = async function (deployer, network, accounts) {
   // Use deployer to state migration tasks.
   const seaSwapWallet = accounts[0];
-  await deployer.deploy(UniswapV2Factory, seaSwapWallet);
+  await deployer.deploy(SeaSwapV2Factory, seaSwapWallet);
 
 };
