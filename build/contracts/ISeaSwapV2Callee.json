@@ -32,15 +32,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"SeaSwapV2Call\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-core/contracts/interfaces/ISeaSwapV2Callee.sol\":\"ISeaSwapV2Callee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-core/contracts/interfaces/ISeaSwapV2Callee.sol\":{\"keccak256\":\"0x824cc85edad949e0f059367054c3cbd49b8b3ec6084f0cea201743eb36aeb064\",\"urls\":[\"bzz-raw://a75271d9e6e4fa67b024134f5acdfb8bbcfd25709ec4a891c1509ab297459316\",\"dweb:/ipfs/QmVZkP8tAUMq6VCkfaquRVfVCRUE4xzPvzMsmgQuaLhvDm\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"SeaSwapV2Call\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-core/contracts/interfaces/ISeaSwapV2Callee.sol\":\"ISeaSwapV2Callee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-core/contracts/interfaces/ISeaSwapV2Callee.sol\":{\"keccak256\":\"0x824cc85edad949e0f059367054c3cbd49b8b3ec6084f0cea201743eb36aeb064\",\"urls\":[\"bzz-raw://a75271d9e6e4fa67b024134f5acdfb8bbcfd25709ec4a891c1509ab297459316\",\"dweb:/ipfs/QmVZkP8tAUMq6VCkfaquRVfVCRUE4xzPvzMsmgQuaLhvDm\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity >=0.5.0;\n\ninterface ISeaSwapV2Callee {\n    function SeaSwapV2Call(address sender, uint amount0, uint amount1, bytes calldata data) external;\n}\n",
-  "sourcePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-core/contracts/interfaces/ISeaSwapV2Callee.sol",
+  "sourcePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-core/contracts/interfaces/ISeaSwapV2Callee.sol",
   "ast": {
-    "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-core/contracts/interfaces/ISeaSwapV2Callee.sol",
+    "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-core/contracts/interfaces/ISeaSwapV2Callee.sol",
     "exportedSymbols": {
       "ISeaSwapV2Callee": [
         1751
@@ -214,7 +214,7 @@
     "src": "0:159:5"
   },
   "legacyAST": {
-    "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-core/contracts/interfaces/ISeaSwapV2Callee.sol",
+    "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-core/contracts/interfaces/ISeaSwapV2Callee.sol",
     "exportedSymbols": {
       "ISeaSwapV2Callee": [
         1751
@@ -389,11 +389,11 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+    "version": "0.5.16+commit.9c3226ce.Linux.g++"
   },
   "networks": {},
-  "schemaVersion": "3.0.21",
-  "updatedAt": "2020-12-05T09:52:39.423Z",
+  "schemaVersion": "3.0.23",
+  "updatedAt": "2020-12-28T21:37:04.078Z",
   "devdoc": {
     "methods": {}
   },
