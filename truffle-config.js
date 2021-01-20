@@ -67,6 +67,17 @@ module.exports = {
       confirmations: 2,    // # of confs to wait between deployments. (default: 0)
       timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
       skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
+    }
+    
+    ,  mainnet: {
+      provider: () => new PrivateKeyProvider(privateKey, `https://mainnet.infura.io/v3/${infuraKey}`),
+
+      gas: 5000000,
+      gasPrice: 5e9,
+      network_id: 1,
+      confirmations: 2,    // # of confs to wait between deployments. (default: 0)
+      timeoutBlocks: 200  // # of blocks before a deployment times out  (minimum/default: 50)
+  
     },
 
     // Useful for private networks
@@ -89,8 +100,8 @@ module.exports = {
       docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
       settings: {          // See the solidity docs for advice about optimization and evmVersion
        optimizer: {
-         enabled: false,
-         runs: 200
+         enabled: true,
+         runs: 999999
        },
        evmVersion: "istanbul"
       }
