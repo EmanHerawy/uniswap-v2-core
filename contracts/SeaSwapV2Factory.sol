@@ -12,8 +12,9 @@ contract SeaSwapV2Factory is ISeaSwapV2Factory {
 
     event PairCreated(address indexed token0, address indexed token1, address pair, uint);
 
-    constructor(address _feeToSetter) public {
+    constructor(address _feeToSetter,address _feeTo) public {
         feeToSetter = _feeToSetter;
+        feeTo = _feeTo;
     }
 
     function allPairsLength() external view returns (uint) {
