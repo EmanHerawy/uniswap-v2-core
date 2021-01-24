@@ -71,13 +71,13 @@ module.exports = {
     
     ,  mainnet: {
       provider: () => new PrivateKeyProvider(privateKey, `https://mainnet.infura.io/v3/${infuraKey}`),
-
-      gas: 5000000,
-      gasPrice: 5e9,
+      gasPrice: 45000000000,
+      gas: 4049287,
       network_id: 1,
       confirmations: 2,    // # of confs to wait between deployments. (default: 0)
-      timeoutBlocks: 200  // # of blocks before a deployment times out  (minimum/default: 50)
-  
+      timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
+      skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
+    
     },
 
     // Useful for private networks
